@@ -28,10 +28,10 @@
         background-color:hsla(290,0%,100%,1);
         background-image:
             radial-gradient(at 94% 100%, hsla(342,0%,100%,0.42) 20px, transparent 50%),
-            radial-gradient(at 96% 96%, hsla(17,87%,45%,1) 0px, transparent 50%),
-            radial-gradient(at 71% 50%, hsla(15,54%,79%,1) 0px, transparent 50%),
+            radial-gradient(at 96% 96%, rgb(116, 137, 231) 0px, transparent 50%),
+            radial-gradient(at 71% 50%, rgb(177, 173, 230) 0px, transparent 50%),
             radial-gradient(at 7% 100%, hsla(232,100%,45%,0.7) 0px, transparent 50%),
-            radial-gradient(at 51% 70%, hsla(356,90%,80%,0.85) 0px, transparent 50%);
+            radial-gradient(at 51% 70%, rgba(198, 219, 243, 0.85) 0px, transparent 50%);
     }
     .bg-3 {
         background-color:hsla(290,0%,100%,1);
