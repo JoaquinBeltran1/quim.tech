@@ -3,6 +3,7 @@
     import Header from "$lib/components/Header.svelte"
 </script>
 
+<div class="noise h-full w-full z-10 fixed overflow-hidden" />
 
 <div>
 <Header />

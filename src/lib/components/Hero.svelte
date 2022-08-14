@@ -1,20 +1,16 @@
 <script>
 
 </script>    
-    
-<div class="rounded-2xl h-full bg-2 my-shadow" id='hero'>
-<div class="rounded-2xl h-full noise">
-    henlo world
+
+
+<div class="rounded-2xl h-full bg-2 my-shadow ">
+<div class="rounded-2xl h-full pt-52 font-dm text-8xl pl-10 text-zinc-800">
+   henlo world
 </div>
 </div>
 
 
 <style>
-	canvas {
-		width: 100%;
-		height: 100%;
-		background-color: #666
-	}
     .bg-1 {
     background-color:hsla(297,100%,89%,1);
     background-image:
@@ -48,10 +44,4 @@
     .my-shadow {
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
-    .noise {
-      background: url("/images/noise/grain_01.png") repeat center center fixed;
-      opacity: 0.06;
-      pointer-events: none;
-    }
-    
 </style>

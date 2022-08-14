@@ -14,7 +14,8 @@
 <script>
     export let posts;
 </script>
-  
+
+<div class="pt-12">
 <ul>
     {#each posts as post}
       <li>
@@ -29,3 +30,4 @@
       </li>
     {/each}
   </ul>
+</div>
