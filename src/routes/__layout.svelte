@@ -1,46 +1,26 @@
 <script>
     import "../app.css";
-    
-    let y = 0
-    $: condition = y <= 150;
-
-    // TODO: instead of arbitray 50, take bottom (or height) of hero element
+    import Header from "$lib/components/Header.svelte"
 </script>
 
-<svelte:window bind:scrollY={y}/>
-
-
-
-
-<div class:hidden={condition} class="bg-red-200 h-20 top-0 z-1 fixed w-full">
-    header
-    <div>
-        <a href="/">
-            Home
-        </a>
-        <a href="/bldrdsh">
-            BLDRDSH
-        </a>
-        <a href="/blog">
-            META
-        </a>
-    </div>
-</div>
-
-<div class="">
-    <slot/>
-
-</div>
-<h1 class:active={condition} class="h-screen">henlo world</h1>
-
-<div class="bg-red-200 h-44">
+<div class=" h-full w-full z-10 fixed overflow-hidden" />
+<div class="bg-main">
+<Header />
+<slot/>
+<div>
     footer
 </div>
+</div>
+
 <style>
-    .hidden {
-        display: none;
+
+    .bg-main {
+        background-color: rgb(255, 255, 255)
     }
-    .active {
-        color: brown
+    .noise {
+      background: url("/images/noise/grain_01.png") repeat center center fixed;
+      opacity: 0.06;
+      pointer-events: none;
     }
+
 </style>

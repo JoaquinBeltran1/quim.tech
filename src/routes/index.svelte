@@ -1,5 +1,8 @@
+<script>
+    import Hero from "../lib/components/Hero.svelte";
+</script>
 
-<div class="h-60">
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="h-screen px-4 py-5">
+    <Hero />
 </div>
+<h1 class="h-screen mt-20">henlo world</h1>
