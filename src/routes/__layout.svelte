@@ -5,7 +5,7 @@
 
 <div class="noise h-full w-full z-10 fixed overflow-hidden" />
 
-<div class="bg-color text-gray-800 ">
+<div class="bg-color text-gray-800 flex-auto">
 <Header />
 <slot/>
 </div>

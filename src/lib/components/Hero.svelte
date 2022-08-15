@@ -6,7 +6,7 @@ import Footer from "./Footer.svelte";
 
 
 <div class="rounded-2xl h-full bg-2 my-shadow relative">
-    <div class="pt-52 pl-10 text-7xl font-dm font-extrabold">
+    <div class="pt-52 text-7xl font-dm font-extrabold text-center">
         henlo world
     </div>
    <div class="text-md w-full flex justify-center absolute bottom-0 ">
