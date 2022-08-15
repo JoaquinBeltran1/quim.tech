@@ -1,18 +1,11 @@
 <script>
-    let x = 0
-    $:console.log(x)
 
-    let y = 0
 </script>
 
-<svelte:window bind:innerWidth={x} bind:innerHeight={y}/>
 
-<div class="noise z-10 absolute rounded-2xl" style= "width: {x - 49}px; height: {y - 40}px"/>
-
-<div class="bg-2 relative rounded-2xl h-full pt-52 font-dm text-8xl pl-10 text-gray-800">
+<div class="rounded-2xl h-full pt-52 bg-2 font-dm text-8xl pl-10 text-gray-800 my-shadow">
    henlo world
 </div>
-
 
 
 <style>
@@ -28,7 +21,7 @@
     .bg-2 {
         background-color:hsla(290,0%,100%,1);
         background-image:
-            radial-gradient(at 94% 100%, hsla(342,0%,100%,0.42 ) 20px, transparent 50%),
+            radial-gradient(at 94% 100%, hsla(342,0%,100%,0.42) 20px, transparent 50%),
             radial-gradient(at 96% 96%, rgb(116, 137, 231) 0px, transparent 50%),
             radial-gradient(at 71% 50%, rgb(177, 173, 230) 0px, transparent 50%),
             radial-gradient(at 7% 100%, hsla(232,100%,45%,0.7) 0px, transparent 50%),
@@ -48,11 +41,6 @@
     }
     .my-shadow {
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    }
-    .noise {
-      background: url("/images/noise/grain_01.png") repeat center center fixed;
-      opacity: 0.06;
-      pointer-events: none;
     }
 
 </style>
