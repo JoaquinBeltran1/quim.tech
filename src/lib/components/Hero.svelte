@@ -1,10 +1,17 @@
 <script>
+import Footer from "./Footer.svelte";
+
 
 </script>
 
 
-<div class="rounded-2xl h-full pt-52 bg-2 font-dm text-8xl pl-10 text-gray-800 my-shadow">
-   henlo world
+<div class="rounded-2xl h-full bg-2 my-shadow relative">
+    <div class="pt-52 pl-10 text-7xl font-dm font-extrabold">
+        henlo world
+    </div>
+   <div class="text-md w-full flex justify-center absolute bottom-0 ">
+    <Footer />
+   </div>
 </div>
 
 
