@@ -1,14 +1,25 @@
 <script>
     export let title
     export let date
+    export let number
+    export let descr
 </script>
 
-<div class="h-screen">
-    <div class="pt-12 flex-auto">
-<h1>{title}</h1>
+<svelte:head>
+  <title>{title} | Quim Beltran</title>
+</svelte:head>
 
-<p>Published: {date}</p>
+<div class="w-full">
+    <div class="pt-12 flex-auto justify-center flex">
+        <div class="w-4/5 pt-20">
+        <h1 class="text-6xl">{title}</h1>
 
-<slot />
-</div>
+        
+
+        <div class="prose pt-10 pb-20">
+            <slot class=""/>
+        </div>
+        <p>Published {date}</p>
+    </div>
+    </div>
 </div>
