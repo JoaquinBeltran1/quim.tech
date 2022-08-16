@@ -1,6 +1,6 @@
 <script>
     let y = 0
-    $: condition = 115 <= y
+    $: condition = 85 <= y
     $: console.log(condition)
 </script>
 
@@ -16,6 +16,9 @@
     </a>
     <a href="/blog">
         META
+    </a>
+    <a href="/writing">
+        WRITING
     </a>
     </div>
     

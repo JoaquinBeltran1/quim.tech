@@ -1,6 +1,6 @@
 <script context="module">
     export const load = async ({ fetch }) => {
-      const posts = await fetch('/api/posts.json')
+      const posts = await fetch('/api/writing.json')
       const allPosts = await posts.json()
     
       return {
@@ -15,15 +15,15 @@
     export let posts;
 </script>
 
-<div class="h-screen bg-meta">
+<div class="h-screen bg-writing">
   <div class="pt-12 flex-auto justify-center flex">
     <div class="flex-col w-4/5 pt-20">
       <div class="flex items-baseline space-x-4 pb-10">
         <h1 class="text-6xl">
-          Meta posts
+          Writing posts
         </h1>
         <h2 class="text-2xl text-gray-600 italic">
-          Posts about this and that
+          Posts about this and that writing
         </h2>
       </div>
       
@@ -56,13 +56,16 @@
 </div>
 
 <style>
-  .bg-meta {
-  background-color:hsla(0,0%,100%,1);
+  .bg-writing {
+    background-color:hsla(240,0%,100%,1);
 background-image:
-radial-gradient(at 23% 49%, hsla(0,0%,100%,0.81) 0px, transparent 50%),
-radial-gradient(at 75% 37%, hsla(84,0%,100%,0.7) 0px, transparent 50%),
-radial-gradient(at 0% 100%, hsla(232,100%,45%,0.53) 0px, transparent 50%),
-radial-gradient(at 82% 94%, hsla(229,73%,56%,0.66) 0px, transparent 50%),
-radial-gradient(at 38% 94%, hsla(212,100%,62%,0.4) 0px, transparent 50%);
+radial-gradient(at 87% 28%, hsla(0,0%,100%,0.72) 0px, transparent 50%),
+radial-gradient(at 60% 37%, hsla(0,0%,100%,0.52) 0px, transparent 50%),
+radial-gradient(at 80% 100%, hsla(104,27%,27%,0.63) 0px, transparent 50%),
+radial-gradient(at 92% 38%, hsla(0,0%,100%,0.44) 0px, transparent 50%),
+radial-gradient(at 32% 42%, hsla(0,0%,100%,0.64) 0px, transparent 50%),
+radial-gradient(at 100% 86%, hsla(119,30%,28%,0.73) 0px, transparent 50%),
+radial-gradient(at 36% 100%, hsla(114,24%,30%,0.81) 0px, transparent 50%),
+radial-gradient(at 1% 97%, hsla(104,20%,31%,0.83) 0px, transparent 50%);
   }
 </style>

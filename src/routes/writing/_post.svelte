@@ -9,7 +9,7 @@
   <title>{title} | Quim Beltran</title>
 </svelte:head>
 
-<div class="min-h-screen">
+<div class="min-h-screen bg-red-200">
     <div class="pt-12 justify-center flex">
         <div class="w-2/3 pt-20">
         <h1 class="text-6xl">{title}</h1>

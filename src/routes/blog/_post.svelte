@@ -11,7 +11,7 @@
 
 <div class="min-h-screen">
     <div class="pt-12 justify-center flex">
-        <div class="w-4/5 pt-20">
+        <div class="w-2/3 pt-20">
         <h1 class="text-6xl">{title}</h1>
 
         
@@ -22,4 +22,5 @@
         <p>Published {date}</p>
     </div>
     </div>
+
 </div>

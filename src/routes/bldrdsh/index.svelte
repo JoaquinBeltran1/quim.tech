@@ -15,7 +15,7 @@
     export let posts;
 </script>
 
-<div class="h-screen bg-blog">
+<div class="h-screen bg-bldrdsh">
   <div class="pt-12 flex-auto justify-center flex">
     <div class="flex-col w-4/5 pt-20">
       <div class="flex items-baseline space-x-4 pb-10">
@@ -56,13 +56,16 @@
 </div>
 
 <style>
-  .bg-blog {
-  background-color:hsla(0,0%,100%,1);
+  .bg-bldrdsh {
+    background-color:hsla(240,0%,100%,1);
 background-image:
-radial-gradient(at 23% 49%, hsla(0,0%,100%,0.81) 0px, transparent 50%),
-radial-gradient(at 75% 37%, hsla(84,0%,100%,0.7) 0px, transparent 50%),
-radial-gradient(at 0% 100%, hsla(232,100%,45%,0.53) 0px, transparent 50%),
-radial-gradient(at 82% 94%, hsla(229,73%,56%,0.66) 0px, transparent 50%),
-radial-gradient(at 38% 94%, hsla(212,100%,62%,0.4) 0px, transparent 50%);
+radial-gradient(at 80% 28%, hsla(338,0%,100%,1) 0px, transparent 50%),
+radial-gradient(at 60% 46%, hsla(0,0%,100%,0.52) 0px, transparent 50%),
+radial-gradient(at 71% 84%, hsla(209,63%,22%,0.45) 0px, transparent 50%),
+radial-gradient(at 91% 49%, hsla(181,0%,100%,0.44) 0px, transparent 50%),
+radial-gradient(at 18% 47%, hsla(0,0%,100%,0.64) 0px, transparent 50%),
+radial-gradient(at 96% 94%, hsla(220,49%,45%,0.73) 0px, transparent 50%),
+radial-gradient(at 8% 94%, hsla(217,33%,44%,0.81) 0px, transparent 50%),
+radial-gradient(at 34% 96%, hsla(224,44%,46%,0.52) 0px, transparent 50%);
   }
 </style>
