@@ -18,8 +18,8 @@
 <div class="h-screen bg-bldrdsh">
   <div class="pt-12 flex-auto justify-center flex">
     <div class="flex-col w-4/5 pt-20">
-      <div class="flex items-baseline space-x-4 pb-10">
-        <h1 class="text-6xl">
+      <div class="md:flex items-baseline md:space-x-4 pb-10">
+        <h1 class="text-6xl pb-4 md:pb-0">
           BLDRDSH posts
         </h1>
         <h2 class="text-2xl text-gray-600 italic">

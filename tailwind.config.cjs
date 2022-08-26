@@ -13,7 +13,9 @@ module.exports = {
           h1: {
           },
           h2: {
-            "font-size": "20px"
+            "font-size": "20px",
+            "padding-top": "15px",
+            "padding-bottom": '15px'
           },
           h3: {
           },

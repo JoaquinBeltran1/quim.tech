@@ -7,7 +7,7 @@
 <svelte:window bind:scrollY={y} />
 
 <div class:active={condition} class="top-0 fixed pt-6 px-6 w-full z-20">
-    <div class="w-full flex justify-center space-x-14 text-gray-800">
+    <div class="w-full flex justify-center space-x-4 sm:space-x-14 text-gray-800">
     <a href="/">
         Home
     </a>
